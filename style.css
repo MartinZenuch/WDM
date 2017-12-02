@@ -1,0 +1,75 @@
+/* *** ***  Global *** *** */
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Playfair+Display');
+
+html {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+     font-family: 'Barlow Semi Condensed', sans-serif;   
+}
+/* *** *** Global End *** *** */
+
+/* *** *** Header *** *** */ 
+
+header {
+    background-color: gainsboro;
+    column-count: 2;
+    max-width: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.logoLeft {
+    margin-left: 15px;
+}
+
+.logoLeft h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.logoLeft h1:hover {
+    color: limegreen;
+}
+
+.navBarRight ul li {
+    float: right;
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.navBarRight ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.navBarRight ul li a:hover {
+    color: limegreen;
+}
+
+/* *** *** header end *** *** */
+
+/* **** *** sections **** *** */
+
+.aboutUs {
+    text-align: center;
+}
